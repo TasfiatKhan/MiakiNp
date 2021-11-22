@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'api.apps.ApiConfig',
+    
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -71,8 +73,6 @@ TEMPLATES = [
 WSGI_APPLICATION = 'MiakiNp.wsgi.application'
 
 
-# Database
-# https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 DATABASES = {
     'default': {
